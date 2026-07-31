@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscurity Clan - Eventi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (identica) -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/img/Oscurity_logo.png" alt="Oscurity Logo">
+            <span>Oscurity</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membri.html">Membri</a></li>
+            <li><a href="events.html">Eventi</a></li>
+            <li><a href="reclet.html">Reclutamento</a></li>
+            <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="eventi-hero">
+        <canvas class="particles" id="particles-hero"></canvas>
+        <h1 class="neon-animate">Eventi del Clan</h1>
+        <p>ClanWar ufficiali e attività interne</p>
+    </section>
+
+    <!-- CLANWAR -->
+    <section class="eventi-section">
+        <canvas class="particles" id="particles-clanwar"></canvas>
+        <h2 class="glitch">ClanWar</h2>
+
+        <div class="eventi-grid">
+
+            <!-- ESEMPIO CLANWAR -->
+            <div class="evento-card" 
+                 data-name=" "
+                 data-stats=" "
+                 data-desc=" ">
+                 
+                
+                
+                <div class="evento-content">
+                    <span class="evento-stato non_iniziato"> </span>
+                    <h3>Non disponibile</h3>
+                    <p>Modalità:///</p>
+                    <p>Data:///</p>
+                    <p class="evento-risultato vittoria"> </p>
+                </div>
+
+                <button class="evento-btn">Dettagli</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EVENTI INTERNI -->
+    <section class="eventi-section">
+        <canvas class="particles" id="particles-interni"></canvas>
+        <h2 class="glitch">Eventi Interni</h2>
+
+        <div class="eventi-grid">
+
+            <div class="evento-card"
+                 data-name="Allenamento BedWars"
+                 data-stats=" 30m/1h"
+                 data-desc="Allenamento ufficiale del clan dedicato a PVP e strategie.">
+
+                
+
+                <div class="evento-content">
+                    <span class="evento-stato non_iniziato">Non iniziato</span>
+                    <h3>Allenamento BedWars</h3>
+                    <p>Tipo: Allenamento</p>
+                    <p>Data: 02/08/2026 19:00</p>
+                </div>
+
+                <button class="evento-btn">Dettagli</button>
+            </div>
+
+            <div class="evento-card"
+                 data-name="4v4"
+                 data-stats=" 1h"
+                 data-desc="BedWars amichevole">
+
+                
+
+                <div class="evento-content">
+                    <span class="evento-stato non_iniziato">Non iniziato</span>
+                    <h3>4v4</h3>
+                    <p>Tipo: Allenamento</p>
+                    <p>Data: 20/07/2026</p>
+                </div>
+
+                <button class="evento-btn">Dettagli</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NOTA -->
+    <section class="eventi-note">
+        <canvas class="particles" id="particles-note"></canvas>
+        <p>
+            <strong>Nota:</strong><br>
+            Solo i membri del Clan Oscurity possono partecipare alle ClanWar e agli eventi interni.
+            Per partecipare e/o chiedere informazioni potete chiedere ai membri dello staff.
+        </p>
+    </section>
+
+    <!-- POPUP -->
+    <div class="evento-popup" id="eventoPopup">
+        <div class="popup-content">
+            <span class="popup-close" id="popupClose">&times;</span>
+
+            <h2 id="popupName"></h2>
+            <p><strong>Durata:</strong> <span id="popupStats"></span></p>
+            <p><strong>Descrizione:</strong> <span id="popupDesc"></span></p>
+
+        </div>
+    </div>
+
+    <!-- FOOTER (identico) -->
+    <footer class="footer">
+        <canvas class="particles" id="particles-footer"></canvas>
+        <p>Oscurity Clan © 2026</p>
+        <p>Contatti: oscurityclanbw@gmail.com</p>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="termini.html">Termini d'Uso</a></li>
+        <p>Sito elaborato da Siryus</p>
+    </footer>
+
+    <script src="js/events.js"></script>
+</body>
+</html>

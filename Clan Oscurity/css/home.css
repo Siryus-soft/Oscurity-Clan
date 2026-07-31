@@ -1,0 +1,181 @@
+/* HERO OSCURITY */
+.hero-osc {
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+
+/* SFUMATURA NERO → VIOLA */
+.hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        #000000 0%,
+        #0a0014 25%,
+        #140022 50%,
+        #2b0066 75%,
+        #4b0082 100%
+    );
+    opacity: 0.85;
+    animation: heroPulse 10s ease-in-out infinite alternate;
+}
+
+/* ANIMAZIONE LEGGERA DELLA SFUMATURA */
+@keyframes heroPulse {
+    0% { filter: blur(0px) brightness(1); }
+    50% { filter: blur(2px) brightness(1.15); }
+    100% { filter: blur(1px) brightness(1.05); }
+}
+
+/* TESTO CENTRALE */
+.hero-center {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-center h1 {
+    font-size: 70px;
+    color: #b56cff;
+    margin-bottom: 20px;
+}
+
+.hero-center p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.85;
+}
+
+/* BOTTONE */
+.hero-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #6a00ff;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #9f4aff;
+    transform: scale(1.05);
+}
+
+/* JOIN SECTION */
+.join-section {
+    padding: 60px;
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+.join-steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.step {
+    background: #140022;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    border: 2px solid var(--purple);
+    box-shadow: 0 0 15px #4b008255;
+}
+
+/* FEATURES */
+.features {
+    padding: 60px;
+    background: var(--dark-purple);
+    color: var(--white);
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-card {
+    background: #140022;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    border: 2px solid var(--purple);
+    box-shadow: 0 0 15px #4b008255;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--neon-purple);
+}
+
+.feature-card img {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.particles {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.join-section,
+.features,
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    background: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+    color: #d8b4ff;
+    border-top: 2px solid #4b0082;
+}
+
+.corner-icon:hover {
+    opacity: 0.45;
+    transform: scale(1.1);
+}
+
+/* Posizioni */
+.top-left {
+    top: 15px;
+    left: 15px;
+}
+
+.bottom-right {
+    bottom: 15px;
+    right: 15px;
+}
+/* RIPPLE RINGS EFFECT*/
+.feature-card {
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    background: #000;
+}
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscurity Clan - Reclutamento</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/reclet.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/img/Oscurity_logo.png" alt="Oscurity Logo">
+            <span>Oscurity</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membri.html">Membri</a></li>
+            <li><a href="events.html">Eventi</a></li>
+            <li><a href="reclet.html">Reclutamento</a></li>
+            <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+    </nav>
+
+    <!-- FORM SECTION -->
+    <section class="reclutamento-section">
+        <canvas class="particles" id="particles-reclutamento"></canvas>
+
+        <div class="intro-text">
+            <p>
+                <strong>Benvenuto nella sezione dedicata al reclutamento del Clan Oscurity.</strong><br>
+                Questo spazio è stato creato per garantire un processo di selezione chiaro, ordinato e accessibile a tutti i giocatori interessati a entrare nel nostro gruppo.  
+                Compilare la scheda di candidatura permette allo staff di valutare ogni profilo con attenzione, assicurando che nessuno venga escluso ingiustamente e che ogni richiesta riceva la giusta considerazione.  
+                Il nostro obiettivo è mantenere un ambiente competitivo, attivo e rispettoso: per questo motivo, i candidati accettati che dovessero risultare inattivi nel tempo verranno rimossi dal Clan per garantire un team sempre presente e motivato.
+            </p>
+        </div>
+
+        <h1 class="neon-animate">Reclutamento Oscurity</h1>
+
+<form action="https://api.web3forms.com/submit" method="POST" class="reclet-success.html">
+
+    <input type="hidden" name="access_key" value="1cd8c853-f800-4523-aef7-d747f4b5f703">
+
+    <input type="hidden" name="redirect" value="reclet-success.html">
+
+    <table class="reclutamento-table">
+    <tr>
+        <th>Nickname Minecraft</th>
+        <td><input type="text" name="nickname" required></td>
+    </tr>
+
+    <tr>
+        <th>Discord</th>
+        <td><input type="text" name="discord" required></td>
+    </tr>
+
+    <tr>
+        <th>K/D</th>
+        <td><input type="text" name="kd" required></td>
+    </tr>
+
+    <tr>
+        <th>FK/FD</th>
+        <td><input type="text" name="fkfd" required></td>
+    </tr>
+
+    <tr>
+        <th>Winrate (%)</th>
+        <td><input type="text" name="winrate" required></td>
+    </tr>
+</table>
+
+    <button type="submit" class="reclutamento-btn">Invia candidatura</button>
+</form>
+
+
+
+        <div class="reclutamento-avviso">
+            <p>
+                <strong>Nota:</strong><br>
+                I candidati verranno contattati privatamente su Discord con gli esiti della selezione.  
+                In caso di accettazione, i membri che risultano inattivi, o che giocano poco, verranno rimossi dal Clan per inattività.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <canvas class="particles" id="particles-footer"></canvas>
+        <p>Oscurity Clan © 2026</p>
+        <p>Contatti: oscurityclanbw@gmail.com</p>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="termini.html">Termini d'Uso</a></li>
+        <p>Sito elaborato da Siryus</p>
+    </footer>
+
+    <script src="js/reclet.js"></script>
+</body>
+</html>

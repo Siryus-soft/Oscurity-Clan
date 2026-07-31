@@ -1,0 +1,184 @@
+.reclutamento-section {
+    background: #000;
+    padding: 60px;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-text {
+    width: 70%;
+    margin: auto;
+    background: #140022;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px #4b008255;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.reclutamento-section h1 {
+    font-size: 45px;
+    color: var(--light-purple);
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.reclutamento-form {
+    width: 450px;
+    margin: auto;
+    background: #140022;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px #4b008255;
+    position: relative;
+    z-index: 2;
+}
+
+.reclutamento-form label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.reclutamento-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #1f0038;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.reclutamento-form button {
+    width: 100%;
+    padding: 12px;
+    background: var(--purple);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reclutamento-form button:hover {
+    background: #9f4aff;
+}
+
+/* AVVISO */
+.reclutamento-avviso {
+    margin-top: 40px;
+    background: #140022;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 25px #4b008255;
+    position: relative;
+    z-index: 2;
+}
+
+/* FOOTER */
+.footer {
+    background: var(--purple);
+    padding: 20px;
+    text-align: center;
+    color: var(--white);
+    border-top: 2px solid #4b0082;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer p {
+    position: relative;
+    z-index: 2;
+}
+
+/* PARTICELLE */
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body {
+    background: #000;
+}
+
+.reclutamento-form,
+.reclutamento-avviso {
+    position: relative;
+    z-index: 2;
+}
+
+.intro-text {
+    position: relative;
+    z-index: 2;
+}
+
+.reclutamento-table {
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #140022;
+    box-shadow: 0 0 25px #4b008255;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.reclutamento-table th {
+    background: #1f0038;
+    color: var(--light-purple);
+    padding: 15px;
+    text-align: left;
+    width: 35%;
+    font-size: 18px;
+}
+
+.reclutamento-table td {
+    padding: 15px;
+}
+
+.reclutamento-table input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #2a004d;
+    color: white;
+}
+
+.reclutamento-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    background: var(--purple);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+}
+
+.reclutamento-btn:hover {
+    background: #9f4aff;
+}
